@@ -1,0 +1,13 @@
+textarea {
+  max-height: 130px;
+  max-width: 500px;
+}
+textarea {
+  max-height: 130px;
+  max-width: 500px;
+}
+textarea {
+  display: block;
+  resize: horizontal;
+  max-width: 500px;
+}
