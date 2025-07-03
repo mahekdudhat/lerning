@@ -1,0 +1,13 @@
+div {
+  height: 200px;
+  width: 200px;
+  box-sizing: border-box;
+  background-color: rebeccapurple;
+  border: 20px solid magenta;
+
+  clip-path: polygon(50% 0, 100% 100%, 0 100%);
+}
+
+div:last-of-type {
+  clip-path: content-box polygon(50% 0, 100% 100%, 0 100%);
+}

@@ -1,0 +1,54 @@
+nav {
+  display: flex;
+  gap: 0.5rem;
+}
+
+a {
+  flex: 1;
+  background-color: #333;
+  color: #fff;
+  border: 1px solid;
+  padding: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.5s ease-out;
+}
+
+a:hover,
+a:focus {
+  background-color: #fff;
+  color: #333;
+}
+
+.box {
+  margin: 20px;
+  padding: 10px;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  font-size: 18px;
+  transition-property: background-color, font-size, transform, color;
+  transition-timing-function: ease-in-out;
+}
+
+.transformed-state {
+  transform: rotate(270deg);
+  background-color: blue;
+  color: yellow;
+  font-size: 12px;
+  transition-property: background-color, font-size, transform, color;
+  transition-timing-function: ease-in-out;
+}
+
+.duration-1 {
+  transition-duration: 0.5s;
+}
+
+.duration-2 {
+  transition-duration: 2s;
+}
+
+.duration-3 {
+  transition-duration: 4s;
+}
