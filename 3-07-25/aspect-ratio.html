@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="aspect.css">
+  <meta charset="UTF-8">
+  <title>Aspect Ratio Example</title>
+  <style>
+    .aspect-box {
+      width: 100%;
+      max-width: 600px;
+      aspect-ratio: 16 / 9;
+      background-color: lightblue;
+      border: 2px solid #333;
+    }
+  </style>
 </head>
 <body>
-    <iframe id="outer">
-  <div id="inner">
-    Watch this element as you resize iframe viewport's width and height.
-  </div>
-</iframe>
+
+  <h2>Box with 16:9 Aspect Ratio</h2>
+  <div class="aspect-box"></div>
+
 </body>
 </html>
