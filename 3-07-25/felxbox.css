@@ -14,9 +14,12 @@ h1 {
 }
 section {
   zoom: 0.8;
+  display: flex;
+  flex-wrap: wrap;
 }
 article {
   padding: 10px;
   margin: 10px;
   background: aqua;
+  flex: 1;
 }
