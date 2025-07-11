@@ -1,4 +1,5 @@
 @media (max-width: 768px) {
+
   .top-row,
   .bottom-row {
     flex-direction: column;
@@ -24,7 +25,13 @@
   .business-link {
     margin-top: 10px;
   }
+
   .hamburger {
     display: block;
+    font-size: 16px;
+  }
+
+  .side-menu {
+    width: 0;
   }
 }
