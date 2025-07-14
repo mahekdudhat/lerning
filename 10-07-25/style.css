@@ -74,7 +74,7 @@ img {
   flex-grow: 1;
   padding: 15px;
   border: 1px solid #ccc;
-  border-right: none;         
+  border-right: none;
 }
 
 .navbar-right {
@@ -184,4 +184,107 @@ img {
   justify-content: center;
   padding: 20px 14px;
 
+}
+
+.Business-master {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 15px 0;
+  font-size: .75rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home {
+
+  white-space: nowrap;
+  display: flex;
+  gap: 3px;
+  color: black;
+  align-items: center;
+
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  display: flex;
+}
+
+.hero-left {
+  background-color: #004A77;
+  color: white;
+  flex: 1;
+  min-width: 300px;
+  padding: 60px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-left h1 {
+  font-size: 3rem;
+  margin: 20px 0;
+}
+
+.hero-left p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+.primary {
+  border: 2px solid white;
+  color: black;
+  background: transparent;
+  background-color: white;
+}
+
+.secondary {
+  border: 2px solid white;
+  color: white;
+  background: transparent;
+}
+
+.primary:hover {
+  background-color: #e6e6e6;
+}
+
+.secondary:hover {
+  background-color: #e6e6e6;
+}
+
+.hero-right {
+  flex: 1;
+  min-width: 300px;
+  overflow: hidden;
+}
+
+.hero-right img {
+  width: fit-content;
+  height: 100%;
+  object-fit: cover;
+  display: flex;
+}
+
+.container1 {
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+  max-width: 1440px;
 }

@@ -34,4 +34,24 @@
   .side-menu {
     width: 0;
   }
+
+  .Business-master {
+    padding: 15px;
+  }
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero-left, .hero-right {
+    flex: none;
+    height: 50vh;
+  }
+
+  .hero-left {
+    padding: 30px 20px;
+  }
+
+  .hero-left h1 {
+    font-size: 2rem;
+  }
 }
