@@ -14,7 +14,6 @@ body {
   max-width: 1440px;
 }
 
-
 a {
   display: inline-block;
   color: currentColor;
@@ -42,7 +41,6 @@ img {
   align-items: center;
   padding: 10px;
 }
-
 
 .logo {
   height: 30px;
@@ -196,13 +194,12 @@ img {
 }
 
 .home {
-
   white-space: nowrap;
   display: flex;
   gap: 3px;
   color: black;
   align-items: center;
-
+  margin: 7px;
 }
 
 .hero {
@@ -224,14 +221,16 @@ img {
 }
 
 .hero-left h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   margin: 20px 0;
+  font-weight: 100
 }
 
 .hero-left p {
-  font-size: 1.2rem;
-  line-height: 1.6;
+  font-size: 2rem;
+  line-height: 1.5;
   margin-bottom: 30px;
+  font-weight: 200;
 }
 
 .hero-buttons {
@@ -287,5 +286,47 @@ img {
   padding: 0 20px;
   width: 100%;
   max-width: 1440px;
+  display: flex;
+}
+
+.trusted-section {
+  background-color: #0f1b2b;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.trusted-section h1 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #e6e6e6;
+}
+
+.trusted-section .asterisk {
+  color: #4aa1f3;
+}
+
+.trusted-section p {
+  font-size: 1.3rem;
+  margin-top: 20px;
+  color: #c0c0c0;
+}
+
+.trusted-section strong {
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.container2 {
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+  max-width: 1440px;
+}
+
+.trusted{
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
   display: flex;
 }
