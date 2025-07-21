@@ -305,9 +305,11 @@ img {
 .trusted-section .asterisk {
   color: #4aa1f3;
 }
-.trusted{
+
+.trusted {
   background-color: #0f1b2b;
 }
+
 .trusted-section p {
   font-size: 1.3rem;
   margin-top: 20px;
@@ -322,54 +324,86 @@ img {
   font-weight: 800;
   color: #ffffff;
 }
+
 .section {
-      padding: 60px 0;
-      margin: auto;
-      text-align: center;
-      background-color: #333;
-    }
- .container3{
-      max-width: 1200px;
-      margin: 0 auto;
-      text-align: center;
-      color:#ccc;
-    
-    }
+  padding: 60px 0;
+  margin: auto;
+  text-align: center;
+  background-color: #333;
+}
 
-    .container3 h1 {
-      font-size: 2.5rem;
-      margin-top: 10px;
-      color: #ccc;
-    }
+.container3 {
+  color: #ccc;
 
-    .cards {
-      display: grid;
-      grid-template-columns: repeat(4,1fr);
-      gap: 40px;
-      text-align: center;
-      margin-top: 10px;
-    }
+}
 
-    .card img {
-      width: 50px;
-      height: 50px;
-      margin-bottom: 20px;
-      margin-left: 90px;
-    }
+.container3 h1 {
+  font-size: 2.5rem;
+  margin-top: 10px;
+  color: #ccc;
+  padding: 10px;
+}
 
-    .card h2 {
-      font-size: 1.2rem;
-      margin-bottom: 15px;
-    }
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  margin-top: 10px;
+}
 
-    .card p {
-    font-size: 1.3rem;
-      color: #cfd8dc;
-      line-height: 1.6;
-  
-    }
+.shop {
+  height: 80px;
+  width: 80px;
+  margin-bottom: 20px;
+}
 
-    .card p strong {
-      color: #ffffff;
-    }
-    
+.card h2 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+
+}
+
+.card p {
+  font-size: 1rem;
+  color: #cfd8dc;
+  line-height: 1.6;
+  font-weight: 50;
+  text-align: left;
+
+}
+
+.card p strong {
+  color: #ffffff;
+}
+
+.her-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.link {
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  display: inline-block;
+  transition: color 0.3s;
+}
+
+.link:hover {
+  color: #a0c4ff;
+}
+
+.premier-line {
+  border-top: 2px solid #40586D;
+}
+
+.line {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-top: 30px;
+}
