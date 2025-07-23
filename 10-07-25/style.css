@@ -262,10 +262,12 @@ img {
 
 .primary:hover {
   background-color: #e6e6e6;
+  color: #333;
 }
 
 .secondary:hover {
   background-color: #e6e6e6;
+  color: #333;
 }
 
 .hero-right {
@@ -360,7 +362,7 @@ img {
 .card h2 {
   font-size: 1.2rem;
   margin-bottom: 15px;
-
+  text-align: center;
 }
 
 .card p {
@@ -407,3 +409,88 @@ img {
   height: 100%;
   margin-top: 30px;
 }
+
+.her-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #333;
+}
+
+h1 {
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #ccc;
+  font-weight: 300;
+}
+
+h2 {
+  display: flex;
+  color: #ccc;
+  font-weight: 200;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.video-thumbnail {
+  margin-top: 20px;
+  height: 40%;
+  width: 40%;
+}
+
+
+.play-button::before {
+  content: '';
+  border-style: solid;
+  border-width: 15px 0 15px 25px;
+  border-color: transparent transparent transparent #333;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.text {
+  display: flex;
+}
+
+.text-content {
+  max-width: 600px;
+  white-space: nowrap;
+}
+
+.text-content h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.text-content ul {
+  padding-left: 100px;
+
+}
+
+.text-content li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  line-height: 1;
+  color: #ccc;
+  text-align: left;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+  border: 2px solid white;
+  background: transparent;
+  margin-left: 40px;
+}
+
+.button:hover {
+  background-color: white;
+  color: #333;
+}   
