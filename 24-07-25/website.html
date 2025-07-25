@@ -11,17 +11,28 @@
 <body>
     <header class="hero">
         <div class="container">
+            <section id="home">
             <nav class="navbar">
 
                 <div class="logo">EATWELL</div>
-                <ul class="nav-links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Offer</a></li>
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#">News</a></li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">Contact</a></li>
+                <button class="menu-toggle" onclick="toggleMenu()">
+                    &#9776; MENU
+                </button>
+
+                <ul class="nav-links" id="navlinks">
+                   <script>
+                        function toggleMenu() {
+                            const nav = document.getElementById('navLinks');
+                            nav.classList.toggle('show');
+                        }
+                    </script>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#offer">Offer</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
             <div class="hero-content">
@@ -30,7 +41,88 @@
                 <a href="#" class="btn">Reservation</a>
             </div>
         </div>
+    </section>
     </header>
+    <section class="about">
+        <div class="container">
+            <section id="about">
+                <div class="our-story">
+                    <div class="left">
+                        <h5>OUR STORY</h5>
+                        <h1>Welcome</h1>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                            there
+                            live the blind texts.</p>
+                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                            It
+                            is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                        <div class="hero-button">
+                            <a href="#" class="left-btn">Learn More About Us</a>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <img src="image/about_img_1.jpg">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+    <section class="offer-section">
+        <div class="container">
+            <section id="offer">
+            <p class="subheading">OUR OFFERS</p>
+            <h1 class="main-heading">Our Offer This Summer</h1>
+            <p class="description">
+                Far far away, behind the word mountains,
+                far from the countries Vokalia and
+                Consonantia, there live the blind texts.
+            </p>
+        </div>
+        <div class="menu-section">
+            <div class="menu-card">
+                <img src="image/offer_1.jpg">
+                <div class="menu-content">
+                    <p class="price">$19.50</p>
+                    <h3 class="dish-name">Beef with Sausage</h3>
+                    <p class="description">Far far away, behind the word mountains, far from the countries Vokalia
+                        andConsonantia, there live the blind texts.
+                        Consonantia.</p>
+                </div>
+                <div class="button-container">
+                    <a href="#" class="order-button">Order Now!</a>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <img src="image/offer_2.jpg" />
+                <div class="menu-content">
+                    <p class="price">$29.50</p>
+                    <h3 class="dish-name">Egg with Garlic</h3>
+                    <p class="description">Far far away, behind the word mountains, far from the countries Vokalia and
+                        Consonantia, there live the blind texts.
+                        Consonantia.</p>
+                </div>
+                <div class="button-container">
+                    <a href="#" class="order-button">Order Now!</a>
+                </div>
+            </div>
+            <div class="menu-card">
+                <img src="image/offer_3.jpg">
+                <div class="menu-content">
+                    <p class="price">$11.50</p>
+                    <h3 class="dish-name">Beef Ribs</h3>
+                    <p class="description">Far far away, behind the word mountains, far from the countries Vokalia and
+                        Consonantia, there live the blind texts.
+                        Consonantia.</p>
+                </div>
+                <div class="button-container">
+                    <a href="#" class="order-button">Order Now!</a>
+                </div>   
+            </div>
+        </div>
+        </section>
+    </section>
+
 </body>
 
 </html>
