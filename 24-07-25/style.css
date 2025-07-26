@@ -202,9 +202,9 @@ img {
 }
 
 .offer-section {
-  background-color:#f8f9fa!important;
+  background-color: #f8f9fa !important;
   padding-top: 12em;
-  margin-bottom: 12em;
+  padding-bottom: 12em;
 }
 
 .subheading {
@@ -221,7 +221,7 @@ img {
   font-weight: 500;
   margin-bottom: 1.5rem;
   text-align: center;
-  font-family:"Playfair Display", serif;
+  font-family: "Playfair Display", serif;
 }
 
 .description {
@@ -230,6 +230,7 @@ img {
   line-height: 1.6;
   text-align: center;
 }
+
 .menu-section {
   display: flex;
   flex-wrap: wrap;
@@ -238,12 +239,13 @@ img {
   max-width: 1200px;
   width: 100%;
 }
+
 .menu-card {
   background: white;
   width: 100%;
   max-width: 350px;
   overflow: hidden;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   text-align: center;
   transition: transform 0.3s ease;
   margin-top: 8em;
@@ -264,7 +266,7 @@ img {
 }
 
 .price {
-  color:#FDA403;
+  color: #FDA403;
   font-family: "Playfair Display", serif;
   font-size: 1.5rem;
   font-weight: bold;
@@ -275,7 +277,7 @@ img {
   font-size: 1.25rem;
   font-weight: bold;
   margin-bottom: 0.75rem;
-  font-family:"Playfair Display", serif; 
+  font-family: "Playfair Display", serif;
 }
 
 .description {
@@ -283,6 +285,7 @@ img {
   color: rgba(0, 0, 0, 0.5);
   line-height: 1.5;
 }
+
 .order-button {
   background-color: orange;
   color: white;
@@ -295,4 +298,114 @@ img {
 
 .order-button:hover {
   background-color: #cb8402;
+}
+
+.pagination {
+  display: flex;
+  display: none;
+  gap: 12px;
+  padding-top: 3em;
+  align-items: center;
+  justify-content: center;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ccc;
+  transition: background-color 0.3s;
+}
+
+.dot.active {
+  background-color: orange;
+}
+
+.menu-sec {    
+  text-align: center;
+  padding: 80px  20px;
+}
+
+.title {
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.1;
+  margin-bottom: 20px;
+  font-family: "Playfair Display", serif;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: #b8b8b8;
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 0 auto 40px auto;
+  font-family: "Raleway", sans-serif;
+}
+
+.menu-tabs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.tab {
+  padding: 14px 28px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: 2px solid #ddd;
+  background-color: transparent;
+  color: #bbb;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.tab:hover {
+  border-color: #000;
+  color: #000;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 40px;
+}
+
+.menu-item {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.menu-item img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.menu-item .info {
+  flex: 1;
+}
+
+.menu-item h3 {
+  margin: 0 0 10px;
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.menu-item p {
+  margin: 0 0 10px;
+  font-size: 14px;
+  color: #999;
+}
+
+.menu-item .price {
+  color: #FDA403;
+  font-size: 24px;
+  font-family: "Playfair Display", serif;
 }
