@@ -236,8 +236,6 @@ img {
   flex-wrap: wrap;
   gap: 2rem;
   justify-content: center;
-  max-width: 1200px;
-  width: 100%;
 }
 
 .menu-card {
@@ -248,7 +246,7 @@ img {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   text-align: center;
   transition: transform 0.3s ease;
-  margin-top: 8em;
+  margin-top: 5em;
 }
 
 .menu-card:hover {
@@ -321,9 +319,9 @@ img {
   background-color: orange;
 }
 
-.menu-sec {    
+.menu-sec {
   text-align: center;
-  padding: 80px  20px;
+  padding: 80px 20px;
 }
 
 .title {
@@ -358,7 +356,7 @@ img {
   letter-spacing: 2px;
   border: 2px solid #ddd;
   background-color: transparent;
-  color: #bbb;
+  color: #b8b8b8;
   cursor: pointer;
   transition: all 0.3s ease;
 }
@@ -368,44 +366,118 @@ img {
   color: #000;
 }
 
-.menu-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+.menu-secti {
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: auto;
+  font-family: "Playfair Display", serif;
+
+}
+
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
   gap: 40px;
+  justify-content: space-between;
 }
 
 .menu-item {
   display: flex;
-  gap: 20px;
   align-items: flex-start;
+  flex: 1 1 45%;
+  gap: 20px;
 }
 
 .menu-item img {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   object-fit: cover;
 }
 
-.menu-item .info {
-  flex: 1;
+.menu-info h3 {
+  font-size: 1.25rem;
+  line-height: 1.45;
+  font-weight: bold;
+  margin-bottom: 5px;
 }
 
-.menu-item h3 {
-  margin: 0 0 10px;
-  font-family: "Playfair Display", serif;
-  font-size: 18px;
-  font-weight: 600;
+.menu-info p {
+  color: #b8b8b8;
+  font-size: 16px;
+  margin-bottom: 1rem;
+  line-height: 1.6;
 }
 
-.menu-item p {
-  margin: 0 0 10px;
-  font-size: 14px;
-  color: #999;
-}
-
-.menu-item .price {
-  color: #FDA403;
+.menu-info .price {
   font-size: 24px;
+  color: #FDA403;
   font-family: "Playfair Display", serif;
+  margin-bottom: .5rem;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+
+
+
+
+.news-section {
+  padding: 40px 20px;
+  text-align: center;
+  margin-top: 20em;
+  background-color: #f8f9fa;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 20em;
+}
+
+.news-header h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.news-header p {
+  font-size: 20px;
+  color: #999;
+  line-height: 1.6;
+}
+
+.Gallery-section {
+  padding: 40px 20px;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 20em;
+}
+
+.gallery-header h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+  font-weight: 300;
+  line-height: 1.1;
+}
+
+.gallery-header p {
+  font-size: 20px;
+  color: #999;
+  line-height: 1.6;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 40px 20px;
+  margin-top: 20px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.03);
 }

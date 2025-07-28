@@ -68,11 +68,15 @@
         font-size: 13px;
     }
 
-    .menu-item p {
-        font-size: 1.25rem;
-    }
+    .news-header h1 {
+    font-size: 40px;
+  }
 
-    .menu-item h3 {
-        font-size: 25px;
-    }
+  .news-header p {
+    font-size: 18px;
+  }
+    .menu-item {
+    flex: 1 1 100%;
+  }
+
 }
